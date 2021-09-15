@@ -6,9 +6,10 @@ https://github.com/UWCoffeeNCode/Past-Projects/tree/master/W19/Projects/hate-spe
 
 ML Titanic: https://github.com/UWCoffeeNCode/Past-Projects/tree/master/F19/Projects/MachineLearning-Titanic
 
-done on kaggle ( and part of reason these were easy to find)
+done on kaggle ( and part of reason these were easy to find):
+
   Boat Image (CNN w TensorFlow),
-  covid Mortality realted to Diet (TensorFlow), 
+  COVID Mortality related to Diet (TensorFlow), 
   fruit classification(TensorFlow) ,
   housing(Pytorch),
   usedcarprices(LinearRegression)
