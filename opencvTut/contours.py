@@ -23,6 +23,7 @@ cv.imshow('cannyCats',canny) # display image
 ret,thresh = cv.threshold(gray,125,255,cv.THRESH_BINARY) # binarize image,0 or 1
 cv.imshow('threshCats',thresh)
 
+# contrours bind edges, usually try canny first then threshold 
 #contours,hierachies = cv.findContours(canny,cv.RETR_LIST,cv.CHAIN_APPROX_SIMPLE) # list all retr, external : returns ones outside, retr_tree returns in tree, 
 contours,hierachies = cv.findContours(thresh,cv.RETR_LIST,cv.CHAIN_APPROX_SIMPLE) # list all retr, external : returns ones outside, retr_tree returns in tree, 
 #apprx method for contour: simple compess lines into end points, none get all points
