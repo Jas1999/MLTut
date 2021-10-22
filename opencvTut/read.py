@@ -1,7 +1,7 @@
 import cv2 as cv
 
 # "C:\school\fydp\opencvTut\opencv-course\Resources\Photos\cat.jpg"
-resourcesFolder = "opencv-course\\Resources\\"
+resourcesFolder = "Resources\\"
 #img = cv.imread(resourcesFolder+'\\Photos\\cat.jpg')
 #img = cv.imread(resourcesFolder+'\\Photos\\cat_large.jpg') # goes off screen 
 
